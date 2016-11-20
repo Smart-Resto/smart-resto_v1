@@ -1,5 +1,8 @@
 #include "inicio.h"
 #include "ui_inicio.h"
+#include <QMessageBox>
+#include "dialog_salao.h"
+#include "ui_dialog_salao.h"
 
 Inicio::Inicio(QWidget *parent) :
     QMainWindow(parent),
@@ -11,4 +14,22 @@ Inicio::Inicio(QWidget *parent) :
 Inicio::~Inicio()
 {
     delete ui;
+}
+
+void Inicio::on_pushButton_entrar_clicked()
+{
+    QString username = ui->lineEdit_usuario->text();
+    QString password = ui->lineEdit_senha->text();
+
+    if(username == "teste" && password == "teste")
+    {
+        QMessageBox::information(this,"Login","Bem-vindo");
+        close();
+        salao = new Dialog_salao(this);
+        salao->exec();
+
+    }else
+    {
+        QMessageBox::warning(this,"Login","Usuario ou senha incorretos");
+    }
 }
