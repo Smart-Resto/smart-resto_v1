@@ -77,6 +77,12 @@
   <widget class="QStatusBar" name="statusBar"/>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>lineEdit_usuario</tabstop>
+  <tabstop>lineEdit_senha</tabstop>
+  <tabstop>pushButton_entrar</tabstop>
+  <tabstop>pushButton_cadsatrar</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>

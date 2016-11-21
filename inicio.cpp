@@ -2,7 +2,7 @@
 #include "ui_inicio.h"
 #include <QMessageBox>
 #include "dialog_salao.h"
-#include "ui_dialog_salao.h"
+
 
 Inicio::Inicio(QWidget *parent) :
     QMainWindow(parent),
@@ -27,7 +27,6 @@ void Inicio::on_pushButton_entrar_clicked()
         close();
         salao = new Dialog_salao(this);
         salao->exec();
-
     }else
     {
         QMessageBox::warning(this,"Login","Usuario ou senha incorretos");

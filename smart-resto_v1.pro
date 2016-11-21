@@ -14,10 +14,13 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         inicio.cpp \
-    dialog_salao.cpp
+    dialog_salao.cpp \
+    dialog_mesa.cpp
 
 HEADERS  += inicio.h \
-    dialog_salao.h
+    dialog_salao.h \
+    dialog_mesa.h
 
 FORMS    += inicio.ui \
-    dialog_salao.ui
+    dialog_salao.ui \
+    dialog_mesa.ui
