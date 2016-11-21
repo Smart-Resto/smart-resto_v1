@@ -1,4 +1,4 @@
-#include "inicio.h"
+#include "mainwindow_inicio.h"
 #include "ui_inicio.h"
 #include <QMessageBox>
 #include "dialog_salao.h"
