@@ -16,12 +16,14 @@ SOURCES += main.cpp\
     mainwindow_inicio.cpp \
     dialog_salao.cpp \
     dialog_mesa.cpp \
-    mainwindow_cardapio.cpp
+    mainwindow_cardapio.cpp \
+    qcliente.cpp
 
 HEADERS  += mainwindow_inicio.h \
     dialog_salao.h \
     dialog_mesa.h \
-    mainwindow_cardapio.h
+    mainwindow_cardapio.h \
+    qcliente.h
 
 FORMS    += mainwindow_inicio.ui \
     dialog_salao.ui \

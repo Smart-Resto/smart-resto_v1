@@ -26,7 +26,6 @@ void Dialog_mesa::on_pushButton_voltar_clicked()
 
 void Dialog_mesa::on_pushButton_cardapio_clicked()
 {
-    hide();
     cardapio_01 = new MainWindow_cardapio(this);
     cardapio_01->show();
 }

@@ -26,6 +26,18 @@ private slots:
 
     void on_spinBox_05_valueChanged(int arg1);
 
+    void on_pushButton_voltar_clicked();
+
+    void on_pushButton_01_clicked();
+
+    void on_pushButton_02_clicked();
+
+    void on_pushButton_03_clicked();
+
+    void on_pushButton_04_clicked();
+
+    void on_pushButton_05_clicked();
+
 private:
     Ui::MainWindow_cardapio *ui;
 };
