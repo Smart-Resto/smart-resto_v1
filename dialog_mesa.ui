@@ -13,16 +13,6 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QKeySequenceEdit" name="keySequenceEdit">
-   <property name="geometry">
-    <rect>
-     <x>280</x>
-     <y>10</y>
-     <width>113</width>
-     <height>20</height>
-    </rect>
-   </property>
-  </widget>
   <widget class="QListView" name="listView_pedidos_da_mesa">
    <property name="geometry">
     <rect>
@@ -108,5 +98,22 @@
   </widget>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>pushButton_voltar</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog_mesa</receiver>
+   <slot>open()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>315</x>
+     <y>124</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>337</x>
+     <y>79</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>

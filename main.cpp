@@ -3,6 +3,9 @@
 #include <QMessageBox>
 
 
+#include <QStackedWidget>
+
+
 
 int main(int argc, char *argv[])
 {

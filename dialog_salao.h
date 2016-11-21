@@ -9,6 +9,8 @@ namespace Ui {
 class Dialog_salao;
 }
 
+class Dialog_mesa;
+
 class Dialog_salao : public QDialog
 {
     Q_OBJECT
@@ -16,7 +18,10 @@ class Dialog_salao : public QDialog
 public:
     explicit Dialog_salao(QWidget *parent = 0);
     ~Dialog_salao();
-
+   Dialog_mesa *mesa_01;
+   Dialog_mesa *mesa_02;
+   Dialog_mesa *mesa_03;
+   Dialog_mesa *mesa_04;
 private slots:
     void on_pushButton_mesa_01_clicked();
 
@@ -28,10 +33,7 @@ private slots:
 
 private:
     Ui::Dialog_salao *ui;
-    Dialog_mesa *mesa_01;
-    Dialog_mesa *mesa_02;
-    Dialog_mesa *mesa_03;
-    Dialog_mesa *mesa_04;
+
 };
 
 #endif // DIALOG_SALAO_H

@@ -1,6 +1,9 @@
 #include "dialog_mesa.h"
 #include "ui_dialog_mesa.h"
-#include <QMessageBox>
+#include "dialog_salao.h"
+
+
+#include "mainwindow_cardapio.h"
 
 
 
@@ -14,4 +17,16 @@ Dialog_mesa::Dialog_mesa(QWidget *parent) :
 Dialog_mesa::~Dialog_mesa()
 {
     delete ui;
+}
+
+void Dialog_mesa::on_pushButton_voltar_clicked()
+{
+    //salao.show();
+}
+
+void Dialog_mesa::on_pushButton_cardapio_clicked()
+{
+    hide();
+    cardapio_01 = new MainWindow_cardapio(this);
+    cardapio_01->show();
 }
