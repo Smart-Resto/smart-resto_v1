@@ -1,5 +1,5 @@
 #include "mainwindow_inicio.h"
-#include "ui_inicio.h"
+#include "ui_mainwindow_inicio.h"
 #include <QMessageBox>
 #include "dialog_salao.h"
 

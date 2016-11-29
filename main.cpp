@@ -1,4 +1,4 @@
-#include "inicio.h"
+#include "mainwindow_inicio.h"
 #include <QApplication>
 #include <QMessageBox>
 
